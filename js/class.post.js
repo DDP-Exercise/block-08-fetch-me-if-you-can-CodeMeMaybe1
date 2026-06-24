@@ -17,3 +17,16 @@
  *  When printing a post, don't forget to make a button that
  *  loads the comments for the post. Once they are loaded, print them.
  *  *******************************************************/
+
+export default class Post {
+    constructor(id, title, body) {
+        this.id = id;
+        this.title = title;
+        this.body = body;
+        this.comments = [];
+    }
+
+    addComment(comment) {
+        this.comments.push(comment);
+    }
+}

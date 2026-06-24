@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#app {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.user {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.user h2 {
+    margin-top: 0;
+}
+
+.user a {
+    color: #0066cc;
+}
+
+.posts {
+    margin-top: 12px;
+    padding-left: 16px;
+}
+
+
+button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.post {
+    border-top: 1px solid #ddd;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+.comment {
+    background-color: #f8f8f8;
+    border-left: 3px solid deeppink;
+    margin-top: 8px;
+    padding: 8px;
+}
